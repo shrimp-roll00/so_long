@@ -40,7 +40,7 @@ clean:
 	$(MAKE_LIBFT) clean
 	$(RM) $(OBJ)
 
-fclean:
+fclean: clean
 	$(MAKE_LIBFT) fclean
 	$(RM) $(NAME)
 
